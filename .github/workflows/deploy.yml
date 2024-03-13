@@ -7,7 +7,7 @@ on:
 
 jobs:
   dar_bienvenida:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Bienvenida
         run:
