@@ -12,3 +12,7 @@ jobs:
       - name: Bienvenida
         run:
           echo "Bievenidos a la página web"
+      - name: Fecha
+        run: date 
+      - name: Ver directorio 
+        run: pwd    
