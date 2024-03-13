@@ -1,4 +1,14 @@
 name: Deployment pipeline
 
 on: 
-  
+  push: 
+    branches:
+      - develop
+
+jobs:
+  dar_bienvenida:
+    runs-on: ubuntu-18.04
+    steps:
+      - name: Bienvenida
+        run:
+          echo "Bievenidos a la página web"
